@@ -736,7 +736,7 @@ int PollJVS(JVSKEY *jkey, INPUT *ip, HANDLE hCom, HANDLE hFile, int node)
 	return(1);
 }
 // ============================================================================
-// NEW COMMUNITY RELEASE BLOCK (CONFIG, COINS & MAIN) - ORIGINAL TIMING RESTORED
+// TOMY EDITION BLOCK (CONFIG, COINS & MAIN) - ORIGINAL TIMING RESTORED
 // ============================================================================
 
 FastioConfig g_config;
@@ -845,7 +845,7 @@ int main()
 	LoadConfig();
 
 	_tprintf(_T("==================================================\n"));
-	_tprintf(_T("  FASTIO - Artax 4.1 JVS Community Edition\n"));
+	_tprintf(_T("  FASTIO - Artax 4.1 JVS Tomy Edition\n"));
 	_tprintf(_T("==================================================\n"));
 	_tprintf(_T("  [+] COM Port       : %s\n"), g_config.comPort);
 	_tprintf(_T("  [+] Coin Multiplier: x%d\n"), g_config.coinMultiplier);
